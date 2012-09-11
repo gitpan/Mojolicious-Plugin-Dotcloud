@@ -25,10 +25,11 @@ my %WriteMakefileArgs = (
   "NAME" => "Mojolicious::Plugin::Dotcloud",
   "PREREQ_PM" => {
     "DotCloud::Environment" => 0,
+    "Mojo::Base" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.00",
+  "VERSION" => "1.01",
   "test" => {
     "TESTS" => "t/*.t"
   }

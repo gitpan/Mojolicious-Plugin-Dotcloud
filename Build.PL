@@ -19,13 +19,14 @@ my %module_build_args = (
     "Ben van Staveren <madcat\@cpan.org>"
   ],
   "dist_name" => "Mojolicious-Plugin-Dotcloud",
-  "dist_version" => "1.00",
+  "dist_version" => "1.01",
   "license" => "perl",
   "module_name" => "Mojolicious::Plugin::Dotcloud",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "DotCloud::Environment" => 0,
+    "Mojo::Base" => 0,
     "strict" => 0,
     "warnings" => 0
   },

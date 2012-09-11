@@ -2,7 +2,7 @@
     from your Mojolicious app.
 
 VERSION
-    version 1.00
+    version 1.01
 
 SYNOPSIS
         use Mojolicious::Plugin::Dotcloud
@@ -59,7 +59,7 @@ POD ERRORS
     Hey! The above document had some coding errors, which are explained
     below:
 
-    Around line 21:
+    Around line 22:
         =pod directives shouldn't be over one line long! Ignoring all 2
         lines of content
 

@@ -2,8 +2,9 @@ use strict;
 use warnings;
 package Mojolicious::Plugin::Dotcloud;
 {
-  $Mojolicious::Plugin::Dotcloud::VERSION = '1.00';
+  $Mojolicious::Plugin::Dotcloud::VERSION = '1.01';
 }
+use Mojo::Base 'Mojolicious::Plugin';
 # ABSTRACT: A quick and dirty wrapper around DotCloud::Environment
 use DotCloud::Environment;
 
@@ -25,7 +26,7 @@ Mojolicious::Plugin::Dotcloud - Easy access to your dotCloud environment from yo
 
 =head1 VERSION
 
-version 1.00
+version 1.01
 
 =head1 SYNOPSIS
 
